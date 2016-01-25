@@ -26,10 +26,10 @@
                     <li>
                         <a href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                     </li>
-                     <li>
+                    {% endif %}{% endfor %}
+                    <li>
                         <a href="http://www.cnblogs.com/chdacm/">官方博客</a>
                     </li>
-                    {% endif %}{% endfor %}
                 </ul>
             </div>
         </div>
