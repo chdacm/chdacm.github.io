@@ -1,4 +1,5 @@
 ---
+layout: post
 title: OJ三次启用说明
 date: 2015-06-30 10:16:53
 tags: 通知
