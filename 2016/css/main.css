@@ -1,0 +1,53 @@
+/**
+ *  icpc2015 main style
+ */
+
+.icpc-logo {
+    height: 230px;
+}
+.poster {
+    text-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+.cover {
+    margin-top: 30px;
+}
+
+.section-title {
+    padding: 10px 2px;
+    border-bottom: 2px solid #337ab7;
+    width: 180px;
+    margin:0 auto;
+    color:#676A7C;
+}
+.section-title2 {
+    padding: 10px 2px;
+    border-bottom: 2px solid #337ab7;
+    width: 130px;
+    margin:0 auto;
+    color:#676A7C;
+}
+.section-title3 {
+    padding: 10px 2px;
+    border-bottom: 2px solid #337ab7;
+    width: 300px;
+    margin:0 auto;
+    color:#676A7C;
+}
+
+.section-title4 {
+    padding: 10px 2px;
+    border-bottom: 2px solid #337ab7;
+    width: 350px;
+    margin:0 auto;
+    color:#676A7C;
+}
+
+.section-content {
+    margin-top: 25px;
+    color: #aaaaaa;
+    font-size: 16px;
+}
+
+.offline {
+	text-align:left;
+}
