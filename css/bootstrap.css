@@ -61,7 +61,7 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 2em;
+  font-size: 1em;
 }
 mark {
   color: #000;
@@ -73,7 +73,7 @@ small {
 sub,
 sup {
   position: relative;
-  font-size: 75%;
+  font-size: 70%;
   line-height: 0;
   vertical-align: baseline;
 }
