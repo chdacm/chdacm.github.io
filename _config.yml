@@ -15,7 +15,7 @@ RSS: false
 # Build settings
 highlighter: pygments
 permalink: pretty
-paginate: 5
+paginate: 7
 exclude: ["less","node_modules","Gruntfile.js","package.json"]
 anchorjs: true                          # if you want to customize anchor. check out line:181 of `post.html`
 
