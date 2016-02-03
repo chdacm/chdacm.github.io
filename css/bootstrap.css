@@ -61,19 +61,19 @@ dfn {
 }
 h1 {
   margin: .67em 0;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 mark {
   color: #000;
   background: #ff0;
 }
 small {
-  font-size: 80%;
+  font-size: 65%;
 }
 sub,
 sup {
   position: relative;
-  font-size: 70%;
+  font-size: 55%;
   line-height: 0;
   vertical-align: baseline;
 }
@@ -106,7 +106,7 @@ kbd,
 pre,
 samp {
   font-family: monospace, monospace;
-  font-size: 1em;
+  font-size: 0.8em;
 }
 button,
 input,
@@ -1074,7 +1074,7 @@ html {
 }
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 12px;
   line-height: 1.42857143;
   color: #333;
   background-color: #fff;
@@ -1226,7 +1226,7 @@ h2 .small,
 .h2 .small,
 h3 .small,
 .h3 .small {
-  font-size: 65%;
+  font-size: 55%;
 }
 h4,
 .h4,
@@ -1253,45 +1253,45 @@ h6 .small,
 }
 h1,
 .h1 {
-  font-size: 36px;
+  font-size: 30px;
 }
 h2,
 .h2 {
-  font-size: 30px;
+  font-size: 24px;
 }
 h3,
 .h3 {
-  font-size: 24px;
+  font-size: 18px;
 }
 h4,
 .h4 {
-  font-size: 18px;
+  font-size: 12px;
 }
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 8px;
 }
 h6,
 .h6 {
-  font-size: 12px;
+  font-size: 4px;
 }
 p {
   margin: 0 0 10px;
 }
 .lead {
   margin-bottom: 20px;
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 300;
   line-height: 1.4;
 }
 @media (min-width: 768px) {
   .lead {
-    font-size: 21px;
+    font-size: 18px;
   }
 }
 small,
 .small {
-  font-size: 85%;
+  font-size: 80%;
 }
 mark,
 .mark {
@@ -1450,7 +1450,7 @@ abbr[data-original-title] {
   border-bottom: 1px dotted #777;
 }
 .initialism {
-  font-size: 90%;
+  font-size: 80%;
   text-transform: uppercase;
 }
 blockquote {
@@ -1468,7 +1468,7 @@ blockquote footer,
 blockquote small,
 blockquote .small {
   display: block;
-  font-size: 80%;
+  font-size: 70%;
   line-height: 1.42857143;
   color: #777;
 }
