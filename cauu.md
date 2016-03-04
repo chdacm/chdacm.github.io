@@ -55,7 +55,7 @@ ACM协会官方群：88837395
 ||姓名|年级|职位|
 |-|
 |主席团|[李韡](http://bigballon.github.io/)|2012|主席
-||[郏乘帆](http://jcf94.github.io/)|2012|副主席
+||[郏乘帆](http://jcf94.com/)|2012|副主席
 |管理团|[司雨寒](http://www.cnblogs.com/AOQNRMGYXLMV/)|2013|部长
 ||霍文艺|2013|部长
 ||李思雨|2013|部长
