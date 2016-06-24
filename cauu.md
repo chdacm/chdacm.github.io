@@ -4,8 +4,6 @@ layout: page
 description: ABOUT US
 header-img: "img/about-bg.jpg"
 ---
-
-
 # Chang'an University ACM Association
 
 ---
