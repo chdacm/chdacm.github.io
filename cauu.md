@@ -78,14 +78,16 @@ ACM协会官方群：88837395
 
 ---
 
-# 第二届ACM协会组织架构
+# 第三届ACM协会组织架构
 
 |姓名|年级|职位
 |-|
-|[司雨寒](http://www.cnblogs.com/AOQNRMGYXLMV/)|2013|主席
-|吴廷炜|2013|副主席
-|江佳宇|2013|副主席
-|何贤拓|2014|竞赛部部长
+|[陈利文](http://home.cnblogs.com/u/smile-0/)|2014|主席
+|[余冠一](http://home.cnblogs.com/u/Aguin/)|2014|副主席
+|何贤拓|2014|副主席
+|[房邓斐](http://home.cnblogs.com/u/Aguin/)|2015|竞赛部部长
+|高翔|2015|财务部部长
+|[王志敏](http://home.cnblogs.com/u/littlepear/)|2015|财务部副部长
 
 然后有A协会员若干~~
 
