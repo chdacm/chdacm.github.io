@@ -82,7 +82,7 @@ ACM协会官方群：88837395
 
 |姓名|年级|职位
 |-|
-|[陈利文](http://home.cnblogs.com/u/smile-0/)|2014|主席
+|陈利文|2014|主席
 |[余冠一](http://home.cnblogs.com/u/Aguin/)|2014|副主席
 |何贤拓|2014|副主席
 |[房邓斐](http://home.cnblogs.com/u/Aguin/)|2015|竞赛部部长
