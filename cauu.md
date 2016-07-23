@@ -56,7 +56,7 @@ header-img: "img/about-bg.jpg"
 
 ---
 
-ACM协会官方群：88837395
+[88837395点击加入](http://jq.qq.com/?_wv=1027&k=2KogR3q)
 
 ||姓名|年级|职位|
 |-|
