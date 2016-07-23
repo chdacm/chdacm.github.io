@@ -56,7 +56,7 @@ header-img: "img/about-bg.jpg"
 
 ---
 
-[88837395点击加入](http://jq.qq.com/?_wv=1027&k=2KogR3q)
+长安大学ACM协会群： [88837395点击加入](http://jq.qq.com/?_wv=1027&k=2KogR3q)
 
 ||姓名|年级|职位|
 |-|
