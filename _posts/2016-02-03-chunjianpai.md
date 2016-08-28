@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2015年总结及2016年安排
-tags: 通知
+tags: inform
 ---
 
 ## 2015总结

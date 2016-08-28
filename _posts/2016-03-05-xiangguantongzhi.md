@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 2016年安排的相关通知
-tags: 通知
+tags: inform
 ---
 
 ## 1. 新学期的算法课程

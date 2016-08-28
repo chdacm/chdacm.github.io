@@ -1,33 +1,29 @@
 ---
 title: TAGS
-layout: default
+layout: page
+description: ENJOY YOURSELF
+header-img: "img/tag-bg.jpg"
 ---
 
-<!-- Page Header -->
-<header class="intro-header" style="background-image: url('{{ site.baseurl }}/{% if page.header-img %}{{ page.header-img }}{% else %}{{ site.header-img }}{% endif %}')">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="site-heading" id="tag-heading">
-                    <h1>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</h1>
-                    <span class="subheading">{{ page.description }}</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
+{% for post in site.tags %}
+{% unless post.next %}
+<h1 class="page-data-year">{{ post.date | date: '%Y' }}</h1>
+{% else %}
+{% capture year %}{{ post.date | date: '%Y' }}{% endcapture %}
+{% capture nyear %}{{ post.next.date | date: '%Y' }}{% endcapture %}
+{% if year != nyear %}
+<h1 class="page-data-year">{{ post.date | date: '%Y' }}</h1>
+{% endif %}
+{% endunless %}
+{% endfor %}
+
 
 <!-- Main Content -->
 <div class="container">
 	<div class="row">
 		<div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
 			<!-- {{content}} -->
-            <!-- 标签云 -->
-			<div id='tag_cloud' class="tags">
-				{% for tag in site.tags %}
-				<a href="#{{ tag[0] }}" title="{{ tag[0] }}" rel="{{ tag[1].size }}">{{ tag[0] }}</a>
-				{% endfor %}
-			</div>
+
 
             <!-- 标签列表 -->
 			{% for tag in site.tags %}
