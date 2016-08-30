@@ -36,7 +36,7 @@ A:正式比赛中，是最多三个人一支队伍，共同使用一台电脑，
 
 Q: 加入A协我能得到什么？
 
-A:或许你需要[看这个](http://chdacm.club/2016/08/30/2016-08-30-learn_from_club/)
+A:或许你需要[看这个](http://chdacm.club/2016/08/30/learn_from_club/)
 
 ## 关于培训
 
