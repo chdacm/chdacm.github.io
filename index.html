@@ -1,42 +1,48 @@
 ---
-layout: page
-description: "CODING CHANGES THE WORLD"
+layout: null
+title: CHD ACM
+permalink: /
 ---
 
-{% for post in paginator.posts %}
-<div class="post-preview">
-    <a href="{{ post.url | prepend: site.baseurl }}">
-        <h2 class="post-title">
-            {{ post.title }}
-        </h2>
-        {% if post.subtitle %}
-        <h3 class="post-subtitle">
-            {{ post.subtitle }}
-        </h3>
-        {% endif %}
-        <div class="post-content-preview">
-            {{ post.content | strip_html | truncate:200 }}
-        </div>
-    </a>
-    <p class="post-meta">
-        Posted by {% if post.author %}{{ post.author }}{% else %}{{ site.title }}{% endif %} on {{ post.date | date: "%B %-d, %Y" }}
-    </p>
-</div>
-<hr>
-{% endfor %}
+<!doctype html>
+<html lang="en" class="no-js">
+<head>
+  <meta charset="UTF-8" />
+  <title>CHD ACM | coding changes the world! </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="img/png" href="/img/kean-logo.png">
+  <link rel="Shortcut Icon" href="/img/favicon.ico">
+  <link rel="Bookmark" href="/img/favicon.ico">
+  <link rel="stylesheet" href="/css/home_page_style.css" />
+  <link href='http://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+  <!-- remember, jQuery is completely optional -->
+  <script type='text/javascript' src='/js/jquery-1.11.1.min.js'></script>
+  <script type='text/javascript' src='/js/jquery.particleground.min.js'></script>
+  <script type='text/javascript' src='/js/particle_setting.js'></script>
+  <script type="text/javascript" src='/js/typed.min.js'></script>
+  <script type="text/javascript" src='/js/typed_setting.js'></script>
+</head>
 
-<!-- Pager -->
-{% if paginator.total_pages > 1 %}
-<ul class="pager">
-    {% if paginator.previous_page %}
-    <li class="previous">
-        <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&larr; Newer Posts</a>
-    </li>
-    {% endif %}
-    {% if paginator.next_page %}
-    <li class="next">
-        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Older Posts &rarr;</a>
-    </li>
-    {% endif %}
-</ul>
-{% endif %}
+<body>
+<div id="particles">
+  <div id="intro">
+    <h1>长安大学 ACM 集训队 </h1>
+    <div ><img class="img-logo" src="/img/kean-logo.png"></img></div>
+    <div class="type-wrap">
+            <div id="typed-strings" hidden="true">
+                <p>Talk is cheap, let's code! </p>
+                <p>no zuo no die, why you try? </p>
+                <p>just enjoy it! </p>
+                <p>coding changes the world! </p>
+            </div>
+            <span id="typed" style="white-space:pre;"></span>
+      </div>
+    <a href="/pages" class="btn">ENTER</a>
+  </div>
+</div>
+
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="http://music.163.com/outchain/player?type=2&id=27669789&auto=1&height=66"></iframe>
+
+
+</body>
+</html>

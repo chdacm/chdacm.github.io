@@ -1,12 +1,9 @@
 ---
-title: 通知
 layout: page
-description: ATTENTION PLEASE !
-header-img: "img/tag-bg.jpg"
+description: "CODING CHANGES THE WORLD"
 ---
 
-
-{% for post in site.tags.inform %}
+{% for post in paginator.posts %}
 <div class="post-preview">
     <a href="{{ post.url | prepend: site.baseurl }}">
         <h2 class="post-title">
@@ -28,7 +25,6 @@ header-img: "img/tag-bg.jpg"
 <hr>
 {% endfor %}
 
-
 <!-- Pager -->
 {% if paginator.total_pages > 1 %}
 <ul class="pager">
@@ -44,5 +40,3 @@ header-img: "img/tag-bg.jpg"
     {% endif %}
 </ul>
 {% endif %}
-
-
