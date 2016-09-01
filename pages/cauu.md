@@ -6,7 +6,7 @@ header-img: "img/about-bg.jpg"
 
 ---
 
-# What's ACM ?
+# What's ACM-ICPC ?
 
 ---
 
