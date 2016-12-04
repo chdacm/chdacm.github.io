@@ -1,0 +1,86 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+    color: white;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial,
+    'Hiragino Sans GB', 'Microsoft YaHei',
+    'WenQuanYi Micro Hei', sans-serif;
+    background-color: #001010;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 { text-align: center; }
+
+#crsboard {
+    width: 100%;
+    text-align: center;
+    vertical-align: bottom;
+    padding: 3px 7px 2px 7px;
+    border-style: dashed;
+    border-collapse: collapse;
+}
+
+#crsboard tr, #crsboard th {
+    font-size: 1.1em;
+    font-weight: normal;
+    border: 1px solid white;
+    color: white;
+    border-style: dashed;
+}
+
+#crsboard thead {
+    font-size: 1.2em;
+    font-weight: bold;
+    border: 1px solid white;
+    color: white;
+    background-color: #000000;
+    border-style: dashed;
+}
+
+#crsboard tr.row1 {
+    background-color: rgba(30, 30, 30, 0.3);
+}
+
+#crsboard tr.row2 {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+#crsboard th.fst {
+    background-color: #f9d923;
+    color: black;
+}
+#crsboard th.sec {
+    background-color: Silver;
+    color: black;
+}
+#crsboard th.trd {
+    background-color: #C08E55;
+    color: black;
+}
+#crsboard th.otr {
+    background-color: #003030;
+    color: white;
+}
+
+#crsboard th.r26p { color: #FF0000; }
+#crsboard th.r22p { color: #FF6347; }
+#crsboard th.r20p { color: #FFD700; }
+#crsboard th.r19p { color: #EEAD0E; }
+#crsboard th.r17p { color: #900090; }
+#crsboard th.r15p { color: #00FFFF; }
+#crsboard th.r13p { color: #7CFC00; }
+#crsboard th.r12p { color: #66CD00; }
+#crsboard th.r12d { color: #8C8C8C; }
+#crsboard th.cp { color: #DC143C; }
+#crsboard th.cd { color: #66CCFF; }
+
+.footer {
+    color: #A0A0A0;
+    font-size: 0.9em;
+}
+
+.footer p { text-align: right; }
