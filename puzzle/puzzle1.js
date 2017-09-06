@@ -22,14 +22,14 @@ var d_direct=new Array(
 var d_posXY=new Array(
         [0],
         [0,0],
-        [150,0],
-        [300,0],
-        [0,150],
-        [150,150],
-        [300,150],
-        [0,300],
-        [150,300],
-        [300,300]
+        [100,0],
+        [200,0],
+        [0,100],
+        [100,100],
+        [200,100],
+        [0,200],
+        [100,200],
+        [200,200]
     );
 
 d[1]=1;d[2]=2;d[3]=3;d[4]=4;d[5]=5;d[6]=6;d[7]=7;d[8]=8;d[9]=0;
@@ -266,6 +266,10 @@ function main(){
   return 0;
 }
 
+function show_ACMQQ()
+{
+  document.getElementById("author").innerHTML = "QQ群：88837395";
+}
 
 window.onload=function(){
     reset();

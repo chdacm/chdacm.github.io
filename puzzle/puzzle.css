@@ -11,7 +11,7 @@ body{
 /* 给body设置100%的高度和宽度，这样就会根据浏览器屏幕大小自动适配 */
 #container{
     position: relative;
-    width: 620px;
+    width: 500px;
     height: 450px;
     margin: 0 auto;
     margin-top: 100px;
@@ -21,8 +21,8 @@ body{
 /* 这是包裹所有元素的DIV，给他设置620px的宽和450px的高，这个大小可以设置为更大，但是不能小，至少要能包含里面所有的元素 */
 #game{
     position: absolute;
-    width: 450px;
-    height: 450px;
+    width: 300px;
+    height: 300px;
     border-radius: 5px;
     display: inline-block;
     background-color: #ffe171;
@@ -31,14 +31,14 @@ body{
 /* 这是游戏区的DIV，这个大小是计算出来的，取决于你的小方块的大小。这里我们设置小方块的大小为150px 150px，所以这个大小是150px*3，为450px */
 #game div{
     position: absolute;
-    width: 149px;
-    height: 149px;
+    width: 99px;
+    height: 99px;
     box-shadow: 1px 1px 2px #777;
-    background-color: #20a6fa;
+    background-size:cover;
     color: white;
     text-align: center;
-    font-size: 150px;
-    line-height: 150px;
+    font-size: 10px;
+    line-height: 100px;
     cursor: pointer;
     -webkit-transition: 0.3s;/*浏览器前缀，兼容其他浏览器 chrome*/
        -moz-transition: 0.3s;/*firefox*/
@@ -53,6 +53,7 @@ body{
     color: #ffe171;
 }
 /*给方块设置鼠标悬停动画，当鼠标悬停在元素上面时，会用这里的属性替换上面的属性，移开后又会变为原来的，这里我们是把字体颜色改变*/
+
 #control{
     width: 150px;
     height: 450px;
@@ -62,10 +63,10 @@ body{
 /*控制区，display:inline-block会让元素呈现块状元素的特性，使得可以改变大小，同时也会具有行内元素的特性，使得不会占据一行空间，float:right让元素浮动到
 右边*/
 #control rowspan{
-    height: 25px;
-    font-size: 20px;
+    height: 20px;
+    font-size: 18px;
     color: #222;
-    margin-top: 10px;
+    margin-top: 12px;
 }
 /*设置控制区按钮的共同样式*/
 #start{
@@ -126,43 +127,57 @@ body{
     left: 0px;
     background-image: url(pic/f-0.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d2{
-    left: 150px;
+    left: 100px;
     background-image: url(pic/f-1.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d3{
-    left: 300px;
+    left: 200px;
     background-image: url(pic/f-2.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d4{
-    top: 150px;
+    top: 100px;
     background-image: url(pic/f-3.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d5{
-    top: 150px;
-    left: 150px;
+    top: 100px;
+    left: 100px;
     background-image: url(pic/f-4.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d6{
-    top: 150px;
-    left: 300px;
+    top: 100px;
+    left: 200px;
     background-image: url(pic/f-5.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d7{
-    top: 300px;
+    top: 200px;
     background-image: url(pic/f-6.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 #d8{
-    left: 150px;
-    top: 300px;
+    left: 100px;
+    top: 200px;
     background-image: url(pic/f-7.jpg);
     background-repeat:no-repeat;
+    z-index:1;
 }
 /*这是预先给每个小方块按照顺序排好位置*/
+#author{
+    left: 200px;
+    top: 200px;
+    z-index:0;
+
+}
