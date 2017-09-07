@@ -1,4 +1,4 @@
-var time=0;
+﻿var time=0;
 
 var pause=true;
 
@@ -268,7 +268,7 @@ function main(){
 
 function show_ACMQQ()
 {
-    document.getElementById("author").innerHTML = "QQ群：658850543";
+    document.getElementById("author").innerHTML = "QQ群:658850543";
 }
 
 window.onload=function(){
