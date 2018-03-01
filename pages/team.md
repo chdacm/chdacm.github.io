@@ -37,18 +37,18 @@ header-img: "img/about-bg.jpg"
 |  2013   |  吴廷炜 | 信息/计算机    | 电子科技大学      |-                                          |
 |  2013   |  江佳宇 | 信息/测控      | 中山大学          |[Blog][9]                                  |
 |  2013   |  吴婵   | 信息/测控      | 华中科技大学      |-                                          |
-|  2014   |  段云鹏 | 信息/计算机    | -                 |[Blog][10] [Github][11]                    |
-|  2014   |  郭俊修 | 信息/计算机    | -                 |-                                          |
+|  2014   |  段云鹏 | 信息/计算机    | 哔哩哔哩          |[Blog][10] [Github][11] [Zhihu][12]        |
+|  2014   |  郭俊修 | 信息/计算机    | 长安大学          |-                                         |
 |  2014   |  陈利文 | 信息/计算机    | -                 |-                                          |
 |  2014   |  梁倍铖 | 信息/计算机    | -                 |-                                          |
-|  2014   |  何贤拓 | 信息/计算机    | -                 |-                                          |
+|  2014   |  何贤拓 | 信息/计算机    | 西北工业大学       |-                                      |
 |  2014   |  孙嘉乐 | 信息/软件工程  | -                 |-                                          |
-|  2014   |  商少奎 | 信息/软件工程  | -                 |-                                          |
-|  2014   |  陈闻恪 | 信息/软件工程  | -                 |-                                          |
+|  2014   |  商少奎 | 信息/软件工程  | 奇虎 360          | [Blog][28]                                 |
+|  2014   |  陈闻恪 | 信息/软件工程  | 腾讯              | [Blog][31] [Github][32] [Zhihu][33]        |
 |  2014   |  苏康   | 信息/网络工程  | -                 |-                                          |
-|  2014   |  胡鑫博 | 信息/网络工程  | -                 |-                                          |
+|  2014   |  胡鑫博 | 信息/网络工程  | 奇虎 360          | [Blog][37] [Github][38] [Zhihu][39]        |
 |  2014   |  陈超   | 理学院/应数    | -                 |-                                          |
-|  2014   |  余冠一 | 公路/道桥      | -                 |[Blog][12]                                 |
+|  2014   |  余冠一 | 公路/道桥      | 东南大学          |[Blog][43]                               |
 |  2015   |  李沛帆 | 电控/自动化    | -                 |-                                          |
 |  2015   |  高翔   | 信息/网络工程  | -                 |-                                          |
 |  2015   |  房邓斐 | 信息/网络工程  | -                 |-                                          |
@@ -131,4 +131,12 @@ header-img: "img/about-bg.jpg"
   [9]: http://www.cnblogs.com/wuyuewoniu/
   [10]: https://imdyp.com/
   [11]: https://github.com/uucloud
-  [12]: http://www.cnblogs.com/Aguin/
+  [12]: https://www.zhihu.com/people/uucloud/activities
+  [28]: http://blog.csdn.net/qq_18218335
+  [31]: http://www.chenwenke.cn/
+  [32]: https://github.com/CaoTanXiaoKe
+  [33]: https://www.zhihu.com/people/cao-tan-xiao-ke/activities
+  [37]: http://www.cnblogs.com/shercy/
+  [38]: https://github.com/xenber
+  [39]: https://www.zhihu.com/people/xenber/activities
+  [43]: http://www.cnblogs.com/Aguin/
