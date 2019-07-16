@@ -450,7 +450,9 @@ title: 2019暑期集训第一讲：博弈论
 
 - ##### 例题
 
-  - ```c++
+  - hdu_1524
+  
+    ```c++
     #include<bits/stdc++.h>
     using namespace std;
     const int maxn = 1e3 + 10;
