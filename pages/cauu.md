@@ -84,7 +84,7 @@ QQ:
 
 我们的博客以后就搬到这里啦！
 通知也在本网站发布。
-我们的主页是:[chdacm.club](http://chdacm.club/)
+我们的主页是:[chdacm.github.io](http://chdacm.github.io/)
 
 
 
